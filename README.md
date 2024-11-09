@@ -16,7 +16,7 @@ Before solving for the business problem, I want to examine data from the aforeme
 
 The dataset for IMDB is contained within a zip file.  Before conducting exploratory data analysis, I will need to unzip the file.  Subsequently, I will utilize the following method - 'pd.read_sql' - to open any files and undestand the associated tables.
 
-### IMDB | Data Understanding (Conclusion)
+### Conclusion
 
 I have completed the exploratory data analysis of the IMDB zip file. Within the zip file, there was only one file, which was titled "im.db". Upon unzipping the file, I utilized the following code - 'cursor.execute("SELECT name FROM sqlite_master WHERE type='table';")' - to understand the various tables.
 
@@ -28,7 +28,7 @@ I decided to place the *movie_basics* table into a dataframe, which is titled *d
 
 The dataset for Box Office Mojo is contained within a csv file.  I will utilize the following method - 'pd.read_csv()' - to examine the contents of the csv file.
 
-### Box Office Mojo | Data Understanding (Conclusion)
+### Conclusion
 
 I have completed the exploratory data analysis of the csv file associated with Box Office Mojo.  I placed the contents of the csv file into a dataframe titled *df_bom*.  *Df_bom* has the following five columns - *title*, *studio*, *domestic_gross*, *foreign_gross*, and *year*.  *Df_bom* has a total of 3,387 rows. 
 
@@ -36,7 +36,7 @@ I have completed the exploratory data analysis of the csv file associated with B
 
 One of the datasets for Rotten Tomatoes is contained within a tsv file.  The data within the tsv file provides movie information.  I will utilize the following method - 'pd.read_csv()' - to examine the contents of the tsv file. 
 
-### Rotten Tomatoes (Movie Information) | Data Understanding (Conclusion)
+### Conclusion
 
 I have completed the exploratory data analysis of the tsv file associated with the Rotten Tomatoes dataset.  I placed the contents of the tsv file into a dataframe titled *df_rotten_movie*.  *Df_rotten_movie* has the following 12 columns - *id*, *synopsis*, *rating*, *genre*, *director*, *writer*, *theater_date*, *dvd_date*, *currency*, *box_office*, *runtime*, and *studio*.  *Df_rotten_movie* has a total of 1,560 rows.
 
@@ -44,7 +44,7 @@ I have completed the exploratory data analysis of the tsv file associated with t
 
 The second dataset for Rotten Tomatoes is also contained within a tsv file.  The data within the tsv file provides movie critic information.  I will utilize the following method - 'pd.read_csv()' - to examine the contents of the tsv file.
 
-### Rotten Tomatoes (Reviews) | Data Understanding (Conclusion)
+### Conclusion
 
 I have completed the exploratory data analysis of the tsv file associated with the second Rotten Tomatoes dataset.  I placed the contents of the tsv file into a dataframe titled *df_rotten_reviews*.  *Df_rotten_reviews* has the following 8 columns - *id*, *review*, *rating*, *fresh*, *critic*, *top_critic*, *publisher*, *date*.  *Df_rotten_reviews* has a total of 54,432 rows of data.
 
@@ -52,7 +52,7 @@ I have completed the exploratory data analysis of the tsv file associated with t
 
 The dataset for the Movie Database is contained within a csv file.  I will utilize the following method - 'pd.read_csv()' - to examine the contents of the csv file.  
 
-### The Movie DB | Data Understanding (Conclusion)
+### Conclusion
 
 I have completed the exploratory data analysis of the csv file associated with the Movie Database dataset.  I placed the contents of the csv file into a dataframe titled *df_movie_db*.  *Df_movie_db* has the following 9 columns - *genre_ids*, *id*, *original_language*, *original_title*, *popularity*, *release_date*, *title*, *vote_average*, and *vote_count*.  *Df_movie_db* has a total of 26,517 rows of data.
 
@@ -60,11 +60,11 @@ I have completed the exploratory data analysis of the csv file associated with t
 
 The dataset for the Numbers is contained within a csv file.  I will utilize the the following method - 'pd.read_csv()' - to examine the contents of the csv file.
 
-### The Numbers | Data Understanding (Conclusion)
+### Conclusion
 
 I have completed the exploratory data analysis of the csv file associated with the Numbers dataset.  I placed the contents of the csv file into a dataframe titled *df_numbers*.  *Df_numbers* has the following 6 columns - *id*, *release_date*, *movie*, *production_budget*, *domestic_gross*, and *worldwide_gross*.  *Df_numbers* has a total of 5,782 rows of data.
 
-## Data Understanding (Conclusion)
+## Completing Exploratory Data Analysis
 
 I completed my exploratory data analysis of the files from the following sources: IMDB, Box Office Mojo, Rotten Tomatos, the Movie DB, and the Numbers.  I want to combine the IMDB and the Numbers dataframes in order to acquire insights into the financial drivers of movies.  I can actually utilize the Box Office dataframe in lieu of The Numbers dataframe; however, I am using The Numbers dataframe for the following reasons:
 
