@@ -121,6 +121,8 @@ If any of the scatterplots display linearity, I will progress with creating a si
 
 I am going to calculate the correlation coefficient between runtime (independent variable) vs. production budget (dependent variable).  I am also going create a scatterplot of runtime (independent variable) vs. production budget (dependent variable).  The correlation coefficient and visualization is below.
 
+![Runtime vs. Production Budget](images/image.png)
+
 The correlation coefficient is 0.35, which is a weak correlation between runtime and production budget.
 
 The data points are clustered in the bottom right of the visualization.  
@@ -131,6 +133,8 @@ Based on the correlation coefficient and visualization, I determine there is a l
 
 I am going to calculate the correlation coefficient between runtime (independent variable) vs. net profit (dependent variable).  I am also going create a scatterplot of runtime (independent variable) vs. net profit (dependent variable).  The correlation coefficient and visualization is below.
 
+![Runtime vs. Net Profit](images/image2.png)
+
 The correlation coefficient is 0.27, which is a weak correlation between runtime and net profit.
 
 The data points are clustered in the bottom right of the visualization. 
@@ -140,6 +144,8 @@ Based on the correlation coefficient and visualization, I determine there is a l
 ## Production Budget vs. Net Profit
 
 I am going to calculate the correlation coefficient between production budget (independent variable) vs. net profit (dependent variable).  I am also going create a scatterplot of production budget (independent variable) vs. net profit (dependent variable).  The correlation coefficient and visualization is below.
+
+![Production Budget vs. Net Profit](images/image3.png)
 
 The correlation coefficient is 0.66, which is a strong correlation between production budget and net profit.
 
@@ -177,6 +183,10 @@ I will use visualizations to further examine the normal distribution of the resi
 
 **Normal Distribution (of Residuals)**
 
+![Histogram of Residuals](images/image4.png)
+
+![Q-Q Plot](images/image5.png)
+
 I created a histogram of the residuals.  A normal distribution is associated with a bell-shaped curve, which is evident in the histogram plot.
 
 I also created a Q-Q plot to evidence whether or not there is a normal distribution of the residuals, which is one of the assumptions of a simple linear regression.  The residuals do not remain constant on the diagonal line in the Q-Q plot.  
@@ -184,6 +194,8 @@ I also created a Q-Q plot to evidence whether or not there is a normal distribut
 The aforementioned divergence in the Q-Q plot evidences that the residuals do not have a normal distribution. 
 
 **Homoscedasticity**
+
+![Homoscedasticity vs. Heteroscedasticity](images/image6.png)
 
 Heteroscedasticity is present within the single linear regression model.  The residuals tend to fan out, which is a contrast of homoscedasticity.
 
